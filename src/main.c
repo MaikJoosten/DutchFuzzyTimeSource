@@ -180,12 +180,12 @@ static void init() {
 	font_big = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_40));
 	font_small = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_30));
 	
-	text_layer(&first_word, GRect(0, 12, 143, 48), font_big);
+	text_layer(&first_word, GRect(0, 12, 143, 50), font_big);
 	text_layer(&second_word, GRect(0, 62, 143, 42), font_small);
-	text_layer(&third_word, GRect(0, 96, 143, 48), font_big);
+	text_layer(&third_word, GRect(0, 96, 143, 50), font_big);
 	
-	text_layer(&first_word_between, GRect(0, 27, 143, 48), font_big);
-	text_layer(&second_word_between, GRect(0, 83, 143, 48), font_big);
+	text_layer(&first_word_between, GRect(0, 27, 143, 50), font_big);
+	text_layer(&second_word_between, GRect(0, 83, 143, 50), font_big);
 	
 	inverter = inverter_layer_create(GRect(0, 166, 36, 1));
 	layer_add_child(window_get_root_layer(window), (Layer *)&inverter);
