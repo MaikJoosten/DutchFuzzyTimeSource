@@ -1,31 +1,31 @@
 {
-    "versionLabel": "2.0",
-    "uuid": "09d04612-c1fa-4fc4-8238-6b9327a1e575",
-    "appKeys": {},
-    "longName": "Dutch Fuzzy Time",
-    "versionCode": 2,
-    "capabilities": [
-        ""
-    ],
-    "shortName": "Dutch Fuzzy Time",
-    "companyName": "MaikJoosten",
-    "watchapp": {
-        "watchface": true
-    },
     "resources": {
         "media": [
             {
                 "characterRegex": "[a-z]",
-                "type": "font",
                 "name": "FONT_40",
-                "file": "fonts/Georgia.ttf"
+                "file": "fonts/Georgia.ttf",
+                "type": "font"
             },
             {
                 "characterRegex": "[a-z ]",
-                "type": "font",
                 "name": "FONT_30",
-                "file": "fonts/GeorgiaSmall.ttf"
+                "file": "fonts/GeorgiaSmall.ttf",
+                "type": "font"
             }
         ]
-    }
+    },
+    "longName": "Dutch Fuzzy Time",
+    "appKeys": {},
+    "watchapp": {
+        "watchface": true
+    },
+    "versionLabel": "2.0",
+    "shortName": "Dutch Fuzzy Time",
+    "companyName": "MaikJoosten",
+    "capabilities": [
+        ""
+    ],
+    "versionCode": 2,
+    "uuid": "09d04612-c1fa-4fc4-8238-6b9327a1e575"
 }
